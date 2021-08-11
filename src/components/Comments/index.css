@@ -1,0 +1,101 @@
+/* Write your CSS here */
+.main-bg-container {
+  min-height: 100vh;
+  padding: 30px;
+  width: 40%;
+}
+.display-container {
+  display: flex;
+  flex-direction: column;
+}
+.main-heading {
+  padding-bottom: 20px;
+  font-size: 35px;
+  font-weight: 700;
+}
+.comment-image {
+  width: 70%;
+  margin-bottom: 10px;
+}
+.about {
+  font-size: 17px;
+  font-weight: 500;
+  color: #475569;
+}
+.input-name {
+  width: 70%;
+  margin-right: 20px;
+  padding: 10px;
+  margin-bottom: 13px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #334155;
+  font-size: 17px;
+  font-weight: 500;
+}
+.add-button {
+  background-color: #0284c7;
+  color: white;
+  padding: 5px;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: 500;
+  height: 40px;
+  width: 110px;
+}
+.line {
+  background-color: #cbd2d9;
+  margin-bottom: 10px;
+}
+.comments-count {
+  font-size: 17px;
+  font-weight: 500;
+  color: #334155;
+}
+.comments-length {
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #0284c7;
+  color: white;
+  padding-left: 9px;
+  padding-right: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 3px;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.ul-container {
+  padding-left: 0px;
+}
+.comment-image-1 {
+  display: none;
+  width: 70%;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .main-bg-container {
+    min-height: 100vh;
+    padding: 30px;
+    width: 100%;
+  }
+  .comment-image {
+    width: 70%;
+    margin-bottom: 10px;
+    display: none;
+  }
+  .comment-image-1 {
+    display: flex;
+    width: 30%;
+    margin-bottom: 10px;
+  }
+  .display-container {
+    flex-direction: row;
+  }
+}

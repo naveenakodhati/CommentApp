@@ -1,0 +1,94 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+}
+
+.row-styling {
+  display: flex;
+  flex-direction: row;
+}
+
+.initial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 15px;
+  padding-bottom: 13px;
+  height: 50px;
+  width: 50px;
+}
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  align-self: center;
+  padding-left: 15px;
+  padding-right: 20px;
+}
+.date-display {
+  font-size: 17px;
+  font-weight: 500;
+  align-self: center;
+  padding-left: 15px;
+  color: #64748b;
+}
+.comment-display {
+  font-size: 17px;
+  font-weight: 500;
+  padding-left: 15px;
+}
+.likedColor {
+  color: #0b69ff;
+}
+.unlikeColor {
+  color: #7e858e;
+}
+.like-image {
+  height: 50px;
+  width: 40px;
+}
+.styling {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.button {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+}
